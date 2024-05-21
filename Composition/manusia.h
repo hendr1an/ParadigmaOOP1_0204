@@ -7,8 +7,8 @@ public:
     string name;
     jantung varJantung;
 
-    manusia(string pNama): name(pName) {
-        cout >> name << " hidup\n";
+    manusia(string pNama): name(pNama) {
+        cout << name << " hidup\n";
     }
     ~manusia() {
         cout << name << " mati\n";
