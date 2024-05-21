@@ -7,6 +7,6 @@ public:
     vector<anak*> daftar_anak;
 
     ibu(string pNama) :nama(pNama) {
-     cout   
+     cout << "ibu \"" << nama << "\" ada\n";
     }
 };
