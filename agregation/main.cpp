@@ -19,4 +19,12 @@ int main() {
 
     varIbu->cetakanak();
     varIbu2->cetakanak();
+
+    delete varIbu;
+    delete varIbu2;
+    delete varanak1;
+    delete varanak2;
+    delete varanak3;
+
+    return 0;
 }
